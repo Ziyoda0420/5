@@ -1,0 +1,284 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Roboto", sans-serif;
+}
+nav{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 50px;
+    
+}
+.roboto{
+    display: flex;
+    margin-left: 750px;
+    gap: 40px;
+    padding-top: 30px;
+    
+ 
+}
+ul a{
+    color: rgba(115, 115, 115, 1);
+}
+.parent{
+    margin: auto;
+    margin-left: 50px;
+    /* margin-top: 150px; */
+    gap: 180px;
+    display: flex;
+
+}
+.respo_n{
+    font-size: 36px;
+    padding-top: 200px;
+}
+.respo_n a {
+    width:79px ;
+    height:42px ;
+    border: 1px solid;
+    font-size: 15px;
+}
+button{
+    width:179px;
+    height:52px ;
+    border: 1px solid;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-top:50px;
+    font-weight: 800;
+    color: white;
+    background: linear-gradient(90deg, rgba(185, 1, 96, 1)20%,  rgba(46, 49, 146, 1)80%);
+}
+h3{
+    font-size:30px;
+    margin-left:520px;
+    
+    
+}
+span{
+    background:linear-gradient;(85deg, rgba(185, 1, 96, 1)50%,rgba(46, 49, 146, 1)50%)
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+}
+.container{
+    width: 1154px;
+    height: 83px;
+    display: flex;
+    gap: 80px;
+    padding-top: 100px;
+    margin-left: 60px;
+}
+.cub{
+    width:344px;
+    height:390px;
+   
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 4px 2px 12px 6px grey;
+}
+h4{
+    font-size:25px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.cub p{
+    color: gray;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+section{
+    width: 100%;
+    height:357px;
+    margin-top: 520px;
+    padding-top: 100px;
+    display:flex;
+    gap:80px;
+    background: linear-gradient(90deg, rgba(212, 20, 90, 0.25)20%,  rgba(46, 49, 146, 0.25)80%);
+}
+.mask{
+    width: 436px;
+    height: 187px;
+    background-color: white;
+    border-radius: 15px;
+    color: black;
+ padding-top: 80px;
+ padding-left: 20px;
+ font-size: 21px;
+}
+.mask p{
+    width: 554px;
+    height: 75px;
+}
+.mask img{
+    position: absolute;
+    top: 1450px;
+    left: 100px;
+}
+
+.mas{
+    width: 436px;
+    height: 187px;
+    background-color: white;
+    border-radius: 15px;
+    color: black;
+ padding-top: 80px;
+ padding-left: 20px;
+ font-size: 21px;
+}
+.mas p{
+    width: 554px;
+    height: 75px;
+}
+.mas img{
+    position: absolute;
+    top: 1450px;
+    left: 650px;
+}
+
+
+.mast{
+    width: 436px;
+    height: 187px;
+    background-color: white;
+    border-radius: 15px;
+    color: black;
+ padding-top: 80px;
+ padding-left: 20px;
+ font-size: 21px;
+}
+.mast p{
+    width: 554px;
+    height: 75px;
+}
+.mast img{
+    position: absolute;
+   left: 1150px;
+   top: 1450px;
+}
+@media (max-width:1200px){
+    header{
+        max-width: 724px;
+        nav{
+            display: flex;
+            margin-top: 20px;
+            margin-left: 50px;
+            
+        }
+        .roboto{
+            display: flex;
+            margin-left: 750px;
+            gap: 40px;
+            padding-top: 30px;
+            
+         
+        }
+        ul a{
+            color: rgba(115, 115, 115, 1);
+        }
+        .parent{
+            margin: auto;
+            margin-left: 50px;
+            /* margin-top: 150px; */
+            gap: 180px;
+            display: flex;
+        
+        }
+        .respo_n{
+            font-size: 36px;
+            padding-top: 200px;
+        }
+        .respo_n a {
+            width:79px ;
+            height:42px ;
+            border: 1px solid;
+            font-size: 15px;
+        }
+        button{
+            width:179px;
+            height:52px ;
+            border: 1px solid;
+            border-radius: 5px;
+            font-size: 15px;
+            margin-top:50px;
+            font-weight: 800;
+            color: white;
+            background: linear-gradient(90deg, rgba(185, 1, 96, 1)20%,  rgba(46, 49, 146, 1)80%);
+        }
+        
+    }
+    }
+    @media (max-width:1024px){
+        header{
+            max-width: 768px;
+
+        
+            
+        }
+        }
+        @media (max-width:768px){
+            header{
+                max-width: 576px;
+            
+            }
+            }
+         @media (max-width:576px){
+                header{
+                    max-width: 320px;
+                    
+                }
+                }
+
+
+
+                @media (max-width:1200px){
+                    main{
+                        max-width: 1024px;
+                        
+                    }
+                    }
+                    @media (max-width:1024px){
+                        main{
+                            max-width: 768px;
+                        
+                            
+                        }
+                        }
+                        @media (max-width:768px){
+                            main{
+                                max-width: 576px;
+                            
+                            }
+                            }
+                         @media (max-width:576px){
+                                main{
+                                    max-width: 320px;
+                                    
+                                }
+
+                                @media (max-width:1200px){
+                                    section{
+                                        max-width: 1024px;
+                                        
+                                    }
+                                    }
+                                    @media (max-width:1024px){
+                                        section{
+                                            max-width: 768px;
+                                        
+                                            
+                                        }
+                                        }
+                                        @media (max-width:768px){
+                                            section{
+                                                max-width: 576px;
+                                            
+                                            }
+                                            }
+                                         @media (max-width:576px){
+                                                section{
+                                                    max-width: 320px;
+                                                    
+                                                }
+                                                }
